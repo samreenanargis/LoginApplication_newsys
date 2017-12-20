@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+    background-color: lightgrey;
+    color: #D4AC0D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  	font-family: Arial, Helvetica, sans-serif;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale; 
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
