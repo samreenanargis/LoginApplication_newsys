@@ -8,12 +8,11 @@
 <link rel="stylesheet" type="text/css" href="/login_application/style/style.css" />
 </head>
 <body>
-<form action="login.jsp">
-		Login Unsuccessful <br><br> <input type="submit" value="Try Again">
-	</form>
+Login Successful
+	<br />
+	<form method="post" action="Users.jsp">
 	
-	<form action="RegisterUser.jsp">
-		<br> <input type="submit" value="Register" >
+		<br /> <input type="submit" value="Show all users">
 	</form>
 </body>
 </html>

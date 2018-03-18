@@ -5,15 +5,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" type="text/css" href="/login_application/style/style.css" />
 </head>
 <body>
-<form action="login.jsp">
-		Login Unsuccessful <br><br> <input type="submit" value="Try Again">
-	</form>
-	
-	<form action="RegisterUser.jsp">
-		<br> <input type="submit" value="Register" >
-	</form>
+Unsuccessful
 </body>
 </html>

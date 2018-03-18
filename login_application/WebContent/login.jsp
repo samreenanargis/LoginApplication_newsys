@@ -8,9 +8,9 @@
 <link rel="stylesheet" type="text/css" href="/login_application/style/style.css" />
 </head>
 <body>
+   
 	<div id="container">
-	<form name="loginForm" method="post" onsubmit="return validateForm()"
-		action="LoginController">
+	<form name="loginForm" method="post" action="LoginController">
 		<table>
 			<tr>
 				<td>Username</td>
@@ -24,17 +24,19 @@
 				<td></td>
 				<td><input type="submit" name="login" value="Login"></td>
 			</tr>
+			
 
 		</table>
 	</form>
 
-	<form name="registerForm" method="post" action="Register.jsp">
-		<table>
+	<form name="RegistrationForm" method="post" action="RegisterUserTrial.jsp">
+	
+		<table id = "registerButton">
 			<tr>
-				<td></td>
 				
-				<td><input type="submit" name="register" value="Register"></td>
+				<td> <input type="submit" name="register" value="Register"> </td>
 			</tr>
+			
 		</table>
 	</form>
 	</div>
